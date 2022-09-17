@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Lora&family=Open+Sans:wght@300;400&family=Outfit:wght@400;700&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap");
+@media all and (max-width: 1440px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    font-family: "Outfit", sans-serif;
+
+    background-color: hsl(212, 45%, 89%);
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0.8rem 0rem;
+    border-radius: 15px;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.242);
+  }
+  .card-container img {
+    border-radius: 15px;
+    width: 90%;
+  }
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .card-text .improve {
+    width: 90%;
+    /* font-weight: bolder; */
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .card-text .instruction {
+    width: 90%;
+    text-align: center;
+    font-size: small;
+    opacity: 0.7;
+    font-family: 400;
+  }
+}
+
+@media all and (max-width: 375px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    font-family: "Outfit", sans-serif;
+
+    background-color: hsl(212, 45%, 89%);
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0.8rem 0rem;
+    border-radius: 15px;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.242);
+  }
+  .card-container img {
+    border-radius: 15px;
+    width: 90%;
+  }
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .card-text .improve {
+    width: 90%;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .card-text .instruction {
+    width: 90%;
+    text-align: center;
+    font-size: small;
+    opacity: 0.7;
+    font-family: 400;
+  }
+}
